@@ -1,0 +1,183 @@
+#nuv{
+  /* background-image:  */
+  background-color: #ef8172;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    size:3em;
+    line-height: 2;
+    color:white;
+    margin-bottom: 150px;
+    font-size: 50px;
+    position: relative;
+    top:100px;
+  }
+  h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    line-height: 1.5;
+  
+  }
+  .container-fluid{
+    padding: 3% 15%;
+  }
+  .hi1{
+    width: 20%;
+    border-radius: 50%;
+    top: 129px;
+    right:100px;
+    z-index: 0;
+    
+  }
+  .hi{
+    width: 80%;
+    position: absolute;
+    border-radius: 70%;
+    top: 129px;
+    right:100px;
+    z-index: 0;
+    /* transform: rotate(25deg); */
+  
+  }
+  
+  /* Navigation Bar */
+  .navbar-brand{
+    font-family:"Ink free","MV Boli",Arial, Helvetica, sans-serif;
+      font-style:italic;
+      /*font-weight: bold;*/
+      font-size: 25px;
+      text-decoration:normal;
+      color:rgb(25, 151, 74);
+  
+  }
+  .nav-item{
+    padding-left: 18px
+  }
+  .nav-link{
+    font-family: 'Montserrat'
+  }
+  .navbar{
+    padding-left: 0;
+    padding-bottom:50px;
+  
+  }
+  /* Download Buttons */
+  .lowlife{
+    margin: 0 3% 38% 0;
+  
+  }
+  /* Features */
+  .fa-check-circle{
+    color:#ef8172;
+    margin-bottom: 1rem;
+  
+  }
+  .fa-bullseye{
+    color:#ef8172;
+    margin-bottom: 1rem;
+  }
+  .fa-heart{
+    color:#ef8172;
+    margin-bottom: 1rem;
+  }
+  
+  #features{
+    padding: 8.5% 15%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+  
+  
+  }
+  .new{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+  }
+  .new1{
+    color: #8f8f8f;
+    font-size: 1rem;
+  }
+  .fa-check-circle:hover, .fa-bullseye:hover, .fa-heart:hover{
+    color: #ff4c66;
+  }
+  /* Testimonial Sections */
+  .carousel-item{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+  }
+  .doggy{
+    border-radius: 100%;
+    width: 30%;
+    margin:20px
+  }
+  /* Press */
+  #press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+  
+  }
+  .test{
+    width: 15%;
+    margin:20px 20px 20px 50px;
+  }
+  #pricing{
+    padding: 100px;
+    text-align: center;
+  }
+  .pri{
+    padding: 3% 2%
+  }
+  @media (max-width:1028px){
+    #title{
+      text-align: center;
+      height: auto;
+  
+    }
+    .hi{
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  #cta{
+    background-color: #ff4c68;
+    font-family:  'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom:60px;
+  
+  }
+  .ctaimg{
+    margin-right: 3%;
+    margin-bottom: 5%;
+    position:relative;
+    bottom: 42px;
+  
+  
+  }
+  .ctatxt{
+    line-height:2;
+    margin:10%;
+    padding-top: 100px;
+    font-size: 3.75rem;
+  }
+  #footer{
+    text-align: center;
+  }
+  .fimg{
+    margin-right: 1%;
+    line-height: 4;
+  }
+  .j{
+    border-radius: 100%;
+  }
+  
